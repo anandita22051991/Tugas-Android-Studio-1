@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/cropped_cropped_logo_univ_pb_new_1" />
+
+    <TextView
+        android:id="@+id/edjurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jurusan" />
+
+    <RadioButton
+        android:id="@+id/edjurusan1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sains Data" />
+
+    <RadioButton
+        android:id="@+id/edjurusan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informatika" />
+
+    <TextView
+        android:id="@+id/edkelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4DSRA" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4IKRA" />
+
+    <Button
+        android:id="@+id/btnext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:onClick="Next1"
+        android:text="NEXT" />
+
+
+</LinearLayout>

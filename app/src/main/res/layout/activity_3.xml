@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/cropped_cropped_logo_univ_pb_new_1" />
+
+    <TextView
+        android:id="@+id/edipk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edipk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:hint="IPK"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/ednilaimk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:hint="Nilai Mata Kuliah 1"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/ednilaimk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:hint="Nilai Mata Kuliah 2:"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bthitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:onClick="Hitung"
+        android:text="Hitung" />
+
+    <EditText
+        android:id="@+id/edratarata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Rata-rata"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btfinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:onClick="Finish"
+        android:text="Finish" />
+
+
+</LinearLayout>
